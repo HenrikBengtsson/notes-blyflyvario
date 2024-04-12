@@ -17,8 +17,9 @@ book:
       chapters:
       - README.md
       
-    - part: "Blue Fly Vario"
+    - part: "Bluefly Vario"
       chapters:
+      - blueflyvario/BlueFlyVario.md
       - blueflyvario/docs/BFVDesktop.md
       - blueflyvario/docs/Updating_firmware.md
 

@@ -88,7 +88,7 @@ I've got the [BlueFlyVario] with Bluetooth & GPS v22.  We ordered two on
 
 * Battery: ~8 hours (w/ Bluetooth & electromagnetic transducer
   running). 2-3 hours to fully charge.  Observation: A five-hour
-  (sic!) flight took it from 100% down 46% (3.828V; 3 beeps)
+  (sic!) flight took it from 100% down to 46% (3.828V; 3 beeps)
   
 
 * Power button: click to turn ON, long press to turn OFF
