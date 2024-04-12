@@ -12,25 +12,33 @@ book:
   
   chapters:
     - index.qmd
+    
     - part: "Overview"
       chapters:
       - README.md
+      
     - part: "Blue Fly Vario"
-#      chapters:
-#      - blueflyvario/README.md
+      chapters:
+      - blueflyvario/docs/BFVDesktop.md
+      - blueflyvario/docs/Updating_firmware.md
+
     - part: "BOOK Onyx Poke"
       chapters:
       - onyx-poke/README.md
+      
     - part: "Recoil"
 #      chapters:
 #      - recoil/README.md
+
     - part: "XC Track"
       chapters:
       - xctrack/README.md
+      
     - part: "Radio"
       chapters:
       - hamradio/README.md
       - hamradio/baofeng.md
+      
     - references.qmd
 
 bibliography: references.bib
