@@ -68,14 +68,51 @@ applied.
 To also _change_ settings, use the [BFV Desktop Java Application]
 (download [ZIP](https://blueflyvario.com/files/BFVDesktop0.85.zip)),
 which runs on any computer and operating system with Java
-installed. The downside is that you need a computer, which you might
-not bring on your flying trip.
+installed. The downside is that you need a computer and you need to
+connect the Bluefly device via an USB-B micro cable (same that you
+charge it with). Unless you bring a computer with you on your flying
+trips, this means you cannot change the settings during trips.
 
 The Poke 3 does not have a speaker. To make sure that the Bluefly
 outputs vario sounds during your flight, make sure to change settings
 to:
 
 * `UseAudioWhenConnected`: `true` (default `false`)
+
+
+# Software
+
+To install and run the [BFV Desktop Java Application] on Ubuntu Linux,
+do:
+
+```sh
+$ wget https://blueflyvario.com/files/BFVDesktop0.87.zip
+$ unzip BFVDesktop0.87.zip
+$ cd BFVDesktop0.87/
+```
+
+Then you have to run it as admin;
+
+```sh
+$ sudo java -jar BFVDesktop.jar
+```
+
+If you forget `sudo`, then you will run it as a non-priviliged user,
+which will not work. There will be no obvious errors, but the software
+will not send or receive any data to and from the device.
+
+In the 'Recieve from Vario' panel at the top right of the BFVDesktop
+window, you'll see a 'Serial Port' section. It allows you to connect
+to your Bluefly via a USB cable.  To connect:
+
+1. Connect your computer with the Bluefly device using a USB cable.
+
+2. Turn on the Bluefly device.
+
+3. You should now be able to select 'ttyUSB0' [^1] and click 'Connect'.
+
+[^1]: The serial port is called 'ttyUSB0' on my Ubuntu 22.04 Linux
+desktop. It might be called something different on other computers.
 
 
 [Bluefly]: https://www.blueflyvario.com/

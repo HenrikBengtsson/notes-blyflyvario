@@ -19,9 +19,10 @@ book:
       
     - part: "Bluefly Vario"
       chapters:
-      - blueflyvario/BlueFlyVario.md
+      - blueflyvario/BlueFlyVario.qmd
       - blueflyvario/docs/BFVDesktop.md
       - blueflyvario/docs/Updating_firmware.md
+      - blueflyvario/bluefly_parser.qmd
 
     - part: "BOOK Onyx Poke"
       chapters:

@@ -12,9 +12,9 @@
 ### Installation
 
 ```sh
-$ wget https://blueflyvario.com/files/BFVDesktop0.85.zip
-$ unzip BFVDesktop0.85.zip
-$ cd distr
+$ wget https://blueflyvario.com/files/BFVDesktop0.87.zip
+$ unzip BFVDesktop0.87.zip
+$ cd BFVDesktop0.87
 ```
 
 ### Usage

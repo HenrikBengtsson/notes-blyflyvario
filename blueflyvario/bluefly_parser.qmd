@@ -1,0 +1,55 @@
+# Parsing the Raw Data Stream
+
+## Capture startup stream
+
+First, turn _off_ the Bluefly device. Second, launch:
+
+```sh
+sudo minicom --baudrate=115200 --device=/dev/ttyUSB0 --capturefile=bluefly.out
+```
+
+Third, turn on Bluefly. After it started, turn it off again. Finally, press Ctrl-A and 'X' to exit minicom.  To see the startup stream, call:
+
+```sh
+$ head bluefly.out 
+
+Bluefly Power On
+BFV 22.2 566
+BlueFlyVario_BLUETOOTH_GPS_IGC_22.2.566
+BST BFK BFL BFP BAC BAD BTH BFQ BFI BSQ BSI BFS BOL BOS BRM BVL BOM BOF BQH BRB BPT BUR BLD BR2 BHV BHT BBZ BZT BSM BUP BTT BDM BQS BGL BSN BFN BMP BPN
+SET 13622 100 20 1 1 1 180 1000 100 400 100 200 5 190 100 1000 0 1 21325 51 1 0 0 624 20 3600 0 60 100 0 2000 0 0 1 1511 93 50 "NKN"
+SPI_Flash JDEC:BF 26 43
+$PGACK,SW_INI_ANT_INPUT_OK*31
+$PMTK011,MTKGPS*08
+$PMTK010,001*2E
+```
+
+This tells us we're running firmware v22.2 release 566. From
+<https://www.blueflyvario.com/files/v22/>, we can see that
+`BTH_GPS_IGC_22.2.566.hex` was released on 2022-10-08.
+
+
+From @bluefly_2021, we learn that pressure data is reported as `PRS
+<hexint>`, e.g.
+
+```
+PRS 18276
+PRS 18278
+PRS 1827B
+PRS 18279
+```
+
+The entries starting with a dollar sign (`$`) are National Marine
+Electronics Association (NMEA) sentences[^1]. Those can be parsed
+using tools such as Python package **pynmea2**
+(https://github.com/Knio/pynmea2) and R package **nmea**
+(https://github.com/paleolimbot/nmea).
+
+
+[^1]: [NMEA 0183](https://en.wikipedia.org/wiki/NMEA_0183).
+
+
+[Bluefly]: https://www.blueflyvario.com/
+[BlueFlyVario]: https://www.blueflyvario.com/
+[BlueFlyVario Android App]: https://www.blueflyvario.com/software/
+[BFV Desktop Java Application]: https://www.blueflyvario.com/software/
