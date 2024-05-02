@@ -74,6 +74,11 @@ also has a thin rectangular guiding pin/hole in the center.
 
 ### Alternative antennas
 
+The Baofeng UV-5R handset uses a [SMA (SubMiniature version A)
+connector](https://en.wikipedia.org/wiki/SMA_connector) for the
+antenna. The handset has a male connector (inside threads) and the
+antenna a female connector (outside threads).
+
 ![](Nagoya_NA-771_40cm_antenna.jpg){width=40%}
 &nbsp; &nbsp; &nbsp; &nbsp;
 ![](tactical_antenna_with_extension_cord.jpg){width=50%}
