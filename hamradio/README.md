@@ -100,6 +100,11 @@ and put on the flightdeck.  I use a 100cm extension cord ([~11 USD on
 Amazon](https://www.amazon.com/dp/B07SC3VQM5)) in order to reach over
 my shoulder and down inside of my jacket to my flight deck.
 
+Another alternative that I've considered would be a wire antenna. See
+<https://ham.stackexchange.com/questions/140/good-wire-for-wire-antenna#181>
+for how to build one.
+
+
 
 ## CRT France FP 00 (temporary)
 
