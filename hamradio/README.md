@@ -46,7 +46,7 @@ Batteries:
 * Model: BL-5. Li-ion battery 7.4V 1800mAh.
 
 
-### Headset
+### PTT Headset
 
 The [PTT headset I use](https://www.amazon.com/gp/product/B081QKHWP4/)
 is 15-20 USD on Amazon.  
@@ -70,6 +70,7 @@ connector](https://en.wikipedia.org/wiki/DIN_connector), because they
 have symmetrically located pins, whereas this headset has three pins
 on one side and two on the other (as if it missed the upper pin). It
 also has a thin rectangular guiding pin/hole in the center.
+
 
 
 ### Alternative antennas
@@ -100,7 +101,10 @@ and put on the flightdeck.  I use a 100cm extension cord ([~11 USD on
 Amazon](https://www.amazon.com/dp/B07SC3VQM5)) in order to reach over
 my shoulder and down inside of my jacket to my flight deck.
 
-Another alternative that I've considered would be a wire antenna. See
+Another alternative that I've considered would be a wire antenna,
+which is basically a wire (e.g. [H07V-K
+4](https://www.awcwire.com/product/h07v-k-4)) on an female [SMA
+connector](https://en.wikipedia.org/wiki/SMA_connector). See
 <https://ham.stackexchange.com/questions/140/good-wire-for-wire-antenna#181>
 for how to build one.
 
