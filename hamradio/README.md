@@ -72,6 +72,30 @@ on one side and two on the other (as if it missed the upper pin). It
 also has a thin rectangular guiding pin/hole in the center.
 
 
+### Alternative antennas
+
+![](Nagoya_NA-771_40cm_antenna.jpg){width=40%}
+&nbsp; &nbsp; &nbsp; &nbsp;
+![](tactical_antenna_with_extension_cord.jpg){width=50%}
+
+In addition to the antenna that comes with the radio, I have a Nagoya
+NA-771 40cm Whip VHF/UHF (144/430Mhz) Antenna (SMA-Female) ([~20 USD
+on Amazon](https://www.amazon.com/dp/B00KC4PWQQ/)) (left), which I
+never really used, because I mount my radio on my flight deck and then
+this long antenna sticks too far out.
+
+I've recently started to experiment with a 72cm foldable tactical
+antenna with a coax extension cord ((~17 USD on
+Amazon](https://www.amazon.com/dp/B094R6GW8Y/)) (right).  I place the
+antenna upside-down in my harness and pull the extension cord over my
+sholder and down to the radio unit.  This adds an extra step of having
+to screw on the antenna before each launch. To avoid that, I keep it
+connected and let the radio hang from it while I connect my harness
+and put on the flightdeck.  I use a 100cm extension cord ([~11 USD on
+Amazon](https://www.amazon.com/dp/B07SC3VQM5)) in order to reach over
+my shoulder and down inside of my jacket to my flight deck.
+
+
 ## CRT France FP 00 (temporary)
 
 I got a [CRT France FP 00] radio in France 2023 when I was on the Saint Hilare
