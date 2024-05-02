@@ -8,8 +8,10 @@ it's not a biggie to get a replacement, keep a backup, and buy spare
 batteries.  The Baofeng UV-5R handset uses the a [Kenwood compatible
 two-pin plug]; one plug is 2.5mm and the other is 3.5mm and are 12mm
 apart. Because of this, I have a fair bit of head sets with
-push-to-talk (PTT) buttons to choose from.  The one I have is 25-35
-USD from Amazon.  I place the PTT button on my left riser near my break handle, because that way I can easily transmit also in active air and while thermalling.  I have the headset and the mic mounted permanently on my helmet.
+push-to-talk (PTT) buttons to choose from. I place the PTT button on
+my left riser near my break handle, because that way I can easily
+transmit also in active air and while thermalling.  I have the headset
+and the mic mounted permanently on my helmet.
 
 On launch, I put on my helmet, let the cable hang down before I close
 my jacket, then I connect it together with the PTT cable that I run
@@ -18,9 +20,8 @@ radio that is on my flight deck.  I then turn on the radio to confirm
 that I can hear "Frequency mode" or "Channel mode" that the radio says
 when turned on.  After this, I do a formal radio check.
 
-![](Baofeng-UV5R_headset_ptt.jpg)
-
-![](Kenwood_two-pin-plug.jpg)
+![](Baofeng-UV5R_headset_ptt.jpg){width=49%}
+![](Kenwood_two-pin-plug.jpg){width=49%}
 
 _Comment_: According to
 [Wikipedia](https://www.wikipedia.org/wiki/Baofeng_UV-5R), "the model
@@ -45,6 +46,31 @@ Batteries:
 * Model: BL-5. Li-ion battery 7.4V 1800mAh.
 
 
+### Headset
+
+The [PTT headset I use](https://www.amazon.com/gp/product/B081QKHWP4/)
+is 15-20 USD on Amazon.  
+
+![](headset-ptt-overview.jpg){width=69%}
+![](headset-ptt_5-pin-din-connector-13.2mm.jpg){width=29%}
+
+It has two flat ear pieces with speakers and a microphone on a
+three-way splitted cable with a male threaded ~13mm 5-pin circular
+connector[^1] at the end.  You mount the ear pieces inside your helmet
+and let the cable, which reaches your chest, hang down.  The
+Push-to-Talk (PTT) button sits on another cable that also terminates
+with a male 5-pin connector.  The third part of this kit is a Y-split
+connector where one end is a standard male 2-pin type K headset
+connector that plugs into the radio, and the other two ends are female
+5-pin connectors that connects to your headset and PTT, respectively.
+
+[^1]: It still unknown exactly what standard the 5-pin connectors are,
+if a standard at all. As far as I know, it is _not_ a 5-pin [DIN
+connector](https://en.wikipedia.org/wiki/DIN_connector), because they
+have symmetrically located pins, whereas this headset has three pins
+on one side and two on the other (as if it missed the upper pin). It
+also has a thin rectangular guiding pin/hole in the center.
+
 
 ## CRT France FP 00 (temporary)
 
@@ -53,16 +79,16 @@ launch realizing my the battery in my Baofeng radio was dead.  I got
 it for 47 EUR from the Prevol shop at launch. I was lucky because it
 had the same headset connection as my Baofeng, so it worked with my
 PTT headset.  It a Baofeng clone with the same configuration and menu
-items(*). The battery and the charger, including the plug to the
+items[^2]. The battery and the charger, including the plug to the
 charging dock is different though.  I haven't tried, but it also looks
 like CHIRP (programming via cable) is not support (yet),
 e.g. <https://chirp.danplanet.com/issues/9894>.
 
-(*) I walked through the menu on the CRT-FP00 and the Baofeng UV-5R
+[^2]: I walked through the menu on the CRT-FP00 and the Baofeng UV-5R
 step by step and the menu entries were identical.
 
-![](CRT_France_FP_00_front.jpg)
-![](CRT_France_FP_00_back.jpg)
+![](CRT_France_FP_00_front.jpg){width=49%}
+![](CRT_France_FP_00_back.jpg){width=49%}
 
 
 ## Yaesu FT-270R (legacy)
