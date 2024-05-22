@@ -48,7 +48,7 @@ Batteries:
 
 ### PTT Headset
 
-The [PTT headset I use](https://www.amazon.com/gp/product/B081QKHWP4/)
+The [PTT headset I use](https://www.amazon.com/dp/B081QKHWP4)
 is 15-20 USD on Amazon.  
 
 ![](headset-ptt-overview.jpg){width=69%}
@@ -69,9 +69,11 @@ if a standard at all. As far as I know, it is _not_ a 5-pin [DIN
 connector](https://en.wikipedia.org/wiki/DIN_connector), because they
 have symmetrically located pins, whereas this headset has three pins
 on one side and two on the other (as if it missed the upper pin). It
-also has a thin rectangular guiding pin/hole in the center.
-
-
+also has a thin rectangular guiding pin/hole in the center.  The
+sheets of these 5-pin connectors can be removed with a teeny hex key 
+(0.035in, but 0.9mm works too). That said, nothing useful is 
+accessible under the sheet; the threads and internal connectors appear
+to be encapsulated within a solid mass of plastic.
 
 ### Alternative antennas
 
